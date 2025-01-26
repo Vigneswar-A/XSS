@@ -3,5 +3,6 @@
   <body>
     <h1>SSTI FTW</h1>
 <p>{{ . }}</p>
+<p>Read file: {{ .File "/etc/passwd" }}</p>
     </body>
 </html>
