@@ -4,5 +4,7 @@
     <h1>SSTI FTW</h1>
 <p>{{ . }}</p>
 <p>Read file: {{ .OutFileContents "/etc/passwd" }}</p>
+
+  <p>Read flag: {{ .OutFileContents "/flag.txt" }}</p>
     </body>
 </html>
